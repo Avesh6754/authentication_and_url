@@ -16,23 +16,33 @@ class Containeer_Navigator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double height=MediaQuery.of(context).size.height;
     return Container(
       height: 70,
-      margin:(isradius)?EdgeInsets.only(left: 50, right: 50, top: 20):null,
+      margin:(isradius)?EdgeInsets.only(left: 50,right: 50, top: 20):null,
       decoration: BoxDecoration(
           border: Border.all(color: Colors.black, width: 1.5),
           borderRadius:(isradius)? BorderRadius.circular(10):null),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          SvgPicture.asset(icondata,),
-          SizedBox(
-            width: 20,
+          Container(
+            height: 25,
+            width: 25,
+            child: SvgPicture.asset(
+              icondata,
+              fit: BoxFit.cover,
+            ),
           ),
+          SizedBox(width: 20,),
           Text(
-            '$name',
-            style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
-          )
+            name,
+            style: Theme.of(context).textTheme.bodyMedium!.copyWith(
+              fontSize: height * 0.016,
+              overflow: TextOverflow.ellipsis,
+              fontWeight: FontWeight.w600,
+            ),
+          ),
         ],
       ),
     );

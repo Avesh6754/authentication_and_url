@@ -33,9 +33,11 @@ class ContactUs extends StatelessWidget {
           children: [
 
             Text(
-              'If you have any queries, get in touch with\n     us.We will be happy to help you!',
+              'If you have any queries, get in touch with us. We will be happy to help you!',
+              textAlign: TextAlign.center,
               style: TextStyle(
-                  fontSize: 20, fontWeight: FontWeight.w500, wordSpacing: 1),
+                fontWeight: FontWeight.w500,
+              ),
             ),
             Phone_call(),
             Email_Source(),
