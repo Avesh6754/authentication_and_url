@@ -1,9 +1,5 @@
 # authentication_and_url
 
-A new Flutter project.
-
-# Social Connect App
-
 This Flutter app is designed to provide seamless connectivity with users across various social media platforms. Users can reach out through direct links, send messages via email or phone number, and initiate calls, all from a single interface.
 
 ## Features
