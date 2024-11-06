@@ -14,4 +14,5 @@ This Flutter app is designed to provide seamless connectivity with users across 
 
 - **Flutter**: Built with Flutter for a smooth and responsive user interface across both Android and iOS.
   
-<img src=https://github.com/user-attachments/assets/6b128bb4-b5cc-4907-af3c-0b35e1047eba height='50%'>
+
+  <img src="https://github.com/user-attachments/assets/6b128bb4-b5cc-4907-af3c-0b35e1047eba" width="22%" Height="35%">
