@@ -26,11 +26,11 @@ class All_Social_Media extends StatelessWidget {
             InkWell(onTap: () async {
               Uri uri=Uri.parse('https://www.instagram.com/avesh_0510/');
               await launchUrl(uri,mode: LaunchMode.inAppWebView);
-            },child: const Containeer_Navigator(icondata:'assets/svg/instagram.svg',iscolor: false,isradius: false,name: 'Instgram',)),
+            },child: const Containeer_Navigator_Social(icondata:'assets/svg/instagram.svg',iscolor: false,isradius: false,name: 'Instgram',)),
             InkWell(onTap: () async {
               Uri uri=Uri.parse('https://github.com/Avesh6754');
               await launchUrl(uri,mode: LaunchMode.inAppWebView);
-            },child: const Containeer_Navigator(icondata: 'assets/svg/github.svg',iscolor: false,isradius: false,name: 'Github',)),
+            },child: const Containeer_Navigator_Social(icondata: 'assets/svg/github.svg',iscolor: false,isradius: false,name: 'Github',)),
             InkWell(onTap: () async {
               Uri uri=Uri.parse('https://www.linkedin.com/in/avesh-prajapati-574276256/');
               await launchUrl(uri,mode: LaunchMode.inAppWebView);

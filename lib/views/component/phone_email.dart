@@ -38,9 +38,9 @@ class Containeer_Navigator extends StatelessWidget {
           Text(
             name,
             style: Theme.of(context).textTheme.bodyMedium!.copyWith(
-              fontSize: height * 0.016,
+              fontSize: height * 0.018,
               overflow: TextOverflow.ellipsis,
-              fontWeight: FontWeight.w600,
+              fontWeight: FontWeight.w700,
             ),
           ),
         ],
