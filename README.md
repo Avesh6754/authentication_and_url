@@ -2,15 +2,19 @@
 
 A new Flutter project.
 
-## Getting Started
+# Social Connect App
 
-This project is a starting point for a Flutter application.
+This Flutter app is designed to provide seamless connectivity with users across various social media platforms. Users can reach out through direct links, send messages via email or phone number, and initiate calls, all from a single interface.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Cross-Platform Integration**: Users can connect on multiple social media platforms through URLs, making it easy to find and interact with others without switching apps.
+  
+- **Direct Messaging**: Send messages through email or SMS with a single tap, making it easy to communicate directly from the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Call Functionality**: Start phone calls directly within the app by clicking on a contact number, adding a layer of convenience for quick conversations.
+
+## Tech Stack
+
+- **Flutter**: Built with Flutter for a smooth and responsive user interface across both Android and iOS.
+  
